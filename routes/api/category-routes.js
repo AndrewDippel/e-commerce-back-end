@@ -62,7 +62,7 @@ router.delete('/:id', async (req, res) => {
     });
 
     if (!removeSingleProduct) {
-      res.status(404).json({ message: 'No library card found with that id!' });
+      res.status(404).json({ message: 'No category found with that id!' });
       return;
     }
 
